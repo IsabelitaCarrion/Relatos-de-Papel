@@ -46,7 +46,7 @@ const Home = () => {
               alt={libro.titulo}
               style={{ cursor: "pointer" }}
             />
-            <h2>{libro.titulo}</h2>
+            <h3>{libro.titulo}</h3>
             <p>Precio: ${libro.precio}</p>
           </div>
         ))}
