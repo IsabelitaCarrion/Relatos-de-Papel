@@ -19,7 +19,7 @@ const DetallesLibro = () => {
       <div className="details">
         <img src={libro.imagen} alt={libro.titulo} />
         <div className="info">
-          <h2>{libro.titulo}</h2>
+          <h3>{libro.titulo}</h3>
           <p>Precio: ${libro.precio}</p>
           <button onClick={() => agregarProducto(libro)}>
             Agregar al carrito
